@@ -18,3 +18,9 @@ Função utilizada para realizar filtros. A função deve receber uma string low
 
 Utilizado para capturar evento de quando o teclado do celular é aberto ou fechado.
 Instalar o "Keyboard" do react-native
+
+# Capturar_Assinatura
+
+Adicionar a biblioteca: "react-native-signature-capture-view"
+Pode ser necessário adicionar também a biblioteca: "react-native-webview"
+https://snack.expo.dev/@khattakahmed/react-native-signature-capture-view?platform=android
