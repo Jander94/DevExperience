@@ -53,3 +53,10 @@ importações:
   - Seguido pelo símbolo "@".
   - Seguido por uma ou mais sequências de caracteres de palavra e hífens, seguidos por um ponto.
   - Terminando com um domínio de nível superior (TLD) que consiste em dois a quatro caracteres de palavra ou hífens.
+
+# FileSystem_Completo (React Native)
+
+- Funções criadas para manipular arquivos na memória interna do aparelho (CRUD).
+- A função de 'criarDiretorioSincroniaMemoria' testa se o diretório existe se existir ela apaga o diretório e depois cria novamente vazio para atualizar os dados.
+- A função 'criarDiretorioAninhadoMemoria' recebe um nome aninhado de pastas (pasta1/pasta2/pasta3) chama a função 'excluirDiretorioRecursivamente' para apagar esses diretórios caso eles existam e depois separa o nome recebido em partes e utiliza um loop for para criar cada pasta dentro da anterior.
+- A função 'excluirDiretorioRecursivamente' recebe um nome aninhado de pastas (pasta1/pasta2/pasta3) separa em partes e utiliza recursão para deletar todas as pastas do path informado.
